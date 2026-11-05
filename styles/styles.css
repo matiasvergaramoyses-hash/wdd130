@@ -31,6 +31,7 @@ main img {
     padding: 5px;
     float: right;
     margin: 10px;
+
 }
 
 aside {
@@ -41,6 +42,7 @@ aside {
     background-color: lightblue;
     color: black;
     text-align: center;
+    box-shadow: 0 0 30px #020202;
 }
 
 aside img {
@@ -48,6 +50,7 @@ aside img {
     height: auto;
     border: 1px solid black;
     padding: 3px;
+
 }
 
 p {
