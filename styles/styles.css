@@ -7,14 +7,12 @@ main {
 
 nav {
     background-color: lightblue;
-    padding: 15px;
-    text-align: center;
+    padding: 10px;
 }
 
 nav a {
     color: black;
     padding: 10px;
-    text-decoration: none;
 }
 
 h1 {
@@ -37,7 +35,7 @@ main img {
 
 aside {
     width: 300px;
-    margin: 20px auto;
+    margin: 20px;
     border: 1px solid black;
     padding: 15px;
     background-color: lightblue;
