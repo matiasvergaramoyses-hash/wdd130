@@ -1,66 +1,82 @@
+:root {
+    /* Colors */
+    --background-color: lightblue;
+    --heading-color: darkblue;
+    --text-color: black;
+    --border-color: black;
+
+    /* Sizes */
+    --image-width: 200px;
+    --spacing-small: 5px;
+    --spacing-medium: 10px;
+    --spacing-large: 20px;
+
+    /* Borders */
+    --border-thin: 1px solid var(--border-color);
+}
+
+/* Main content */
 main {
     max-width: 840px;
-    margin: 20px auto;
+    margin: var(--spacing-large) auto;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
 
 nav {
-    background-color: lightblue;
-    padding: 10px;
+    background-color: var(--background-color);
+    padding: var(--spacing-medium);
 }
 
 nav a {
-    color: black;
-    padding: 10px;
+    color: var(--text-color);
+    padding: var(--spacing-medium);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-color);
     text-align: center;
 }
 
 h2 {
-    color: darkblue;
+    color: var(--heading-color);
 }
 
 main img {
-    width: 200px;
+    width: var(--image-width);
     height: auto;
-    border: 2px solid black;
-    padding: 5px;
+    border: 2px solid var(--border-color);
+    padding: var(--spacing-small);
     float: right;
-    margin: 10px;
-
+    margin: var(--spacing-medium);
 }
 
 aside {
     width: 300px;
-    margin: 20px;
-    border: 1px solid black;
+    margin: var(--spacing-large);
+    border: var(--border-thin);
     padding: 15px;
-    background-color: lightblue;
-    color: black;
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
     box-shadow: 0 0 30px #020202;
 }
 
 aside img {
-    width: 200px;
+    width: var(--image-width);
     height: auto;
-    border: 1px solid black;
+    border: var(--border-thin);
     padding: 3px;
-
 }
 
 p {
-    padding: 5px;
+    padding: var(--spacing-small);
 }
 
 footer {
-    margin-top: 20px;
-    border-top: 1px solid black;
+    margin-top: var(--spacing-large);
+    border-top: var(--border-thin);
     text-align: center;
-    padding: 10px;
-    background-color: lightblue;
+    padding: var(--spacing-medium);
+    background-color: var(--background-color);
 }
