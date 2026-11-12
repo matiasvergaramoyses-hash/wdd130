@@ -87,6 +87,7 @@ p {
     padding: var(--spacing-small);
 }
 
+/* footer */
 footer {
     margin-top: var(--spacing-large);
     border-top: var(--border-thin);
