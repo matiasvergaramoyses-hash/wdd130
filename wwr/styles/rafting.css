@@ -39,7 +39,7 @@ header {
     background-color: var(--accent1-color);
 }
 
-header img {
+header > img {
     width: 100px;
     height: auto;
 }
